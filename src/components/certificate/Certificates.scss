@@ -1,0 +1,38 @@
+.certificate-wrapper {
+    .slick-slider {
+        .slick-prev {
+            background-image: url(../../assets/left.png);
+            width: 30px;
+            height: 41px;
+            background-repeat: no-repeat;
+
+            &::before {
+                color: unset;
+            }
+        }
+        .slick-next {
+            background-image: url(../../assets/next.png);
+            width: 30px;
+            height: 41px;
+            background-repeat: no-repeat;
+
+            &::before {
+                color: unset;
+            }
+        }
+
+        .slick-dots {
+            button {
+                &::before {
+                    font-size: 10px;
+                    color: #EF7C00;
+                }
+            }
+
+
+        }
+
+    }
+
+
+}

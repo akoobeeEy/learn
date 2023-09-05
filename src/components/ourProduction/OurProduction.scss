@@ -1,0 +1,32 @@
+.our-production-wrapper {
+
+
+    .react-tabs__tab--selected {
+        background: #EF7C00 !important;
+        border-color: none;
+        border-color: unset;
+        color: white !important;
+    }
+
+    .produc-card {
+        .produc-img {
+            object-fit: cover;
+
+            &:hover {
+                transform: scale(1.05);
+                transition: 0.3s ease-in-out;
+            }
+        }
+    }
+
+    .form-container {
+        background-image: url(../../assets/form-banner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        margin-top: 180px;
+        padding: 24px;
+      
+    }
+}

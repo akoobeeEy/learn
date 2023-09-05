@@ -1,0 +1,44 @@
+.banner-wrapper {
+    overflow: hidden;
+
+    .slide-bg-1 {
+        background-image: url(../../assets/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+    }
+
+    .slide-bg-2 {
+        background-image: url(../../assets/bg2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+    }
+
+    .slide-bg-3 {
+        background-image: url(../../assets/bg3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+    }
+
+    .slick-slider {
+        .slick-dots {
+            left: 15% !important;
+            bottom: 50px !important;
+            width: fit-content;
+            button {
+               &::before {
+                    font-size: 10px;
+                    color: #EF7C00;
+                }
+            }
+
+
+        }
+
+    }
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .nav-link {
+    @apply text-sm font-medium duration-200 md:text-base hover:text-hoverColor;
+  }
+  .title {
+    @apply text-base font-semibold text-titleColor md:text-4xl;
+  }
+  .button {
+    @apply px-5 py-[10px] text-center hover:bg-hoverColor text-hoverColor rounded-md hover:text-white bg-white border-[1px] border-hoverColor
+     duration-200 transition-colors delay-150;
+  }
+  .produc-card {
+    @apply flex items-center justify-center px-4 py-2 bg-slate-200  w-[303px] h-[281px];
+  }
+  .footer-title{
+    @apply text-sm md:text-xl text-titleColor font-semibold mb-6
+  }
+  .footer-link{
+    @apply text-xs md:text-base text-titleColor font-medium cursor-pointer
+  }
+}
+.nav-link.active {
+  color: #ef7c00 !important;
+}
